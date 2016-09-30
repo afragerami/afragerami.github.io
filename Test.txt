@@ -5,3 +5,8 @@
            var amount = parseInt($('#amount').val());
 
            Users.update(this._id, { $inc: { total: amount } });
+
+
+499089598514-8bhbu1mmjg8dgbltfltl9c0r83v2888a.apps.googleusercontent.com
+
+fHe-NBbW3FxThud1JOCodhfp
