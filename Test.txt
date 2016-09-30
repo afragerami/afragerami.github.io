@@ -1,0 +1,7 @@
+  Template.userDetails.events({        
+       'click #addAmount' : function(e) {
+           e.preventDefault();
+
+           var amount = parseInt($('#amount').val());
+
+           Users.update(this._id, { $inc: { total: amount } });
